@@ -10,9 +10,9 @@
 
     class Kendaraan {
     // Atribut private untuk menyimpan informasi kendaraan
-    private String merk;
-    private String tipe;
-    private int kecepatan;
+    String merk;
+    String tipe;
+    int kecepatan;
 
     // Konstruktor untuk menginisialisasi objek Kendaraan
     public Kendaraan (String merk, String tipe, int kecepatan) {
