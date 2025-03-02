@@ -9,8 +9,8 @@
  */
 class Mahasiswa {
     // Atribut (data) dengan akses private
-    private String nama;
-    private int nim;
+    String nama;
+    int nim;
 
     // Konstruktor
     public Mahasiswa(String nama, int nim) {
