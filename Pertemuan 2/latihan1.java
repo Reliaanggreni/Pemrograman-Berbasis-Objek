@@ -8,9 +8,9 @@
  * @author AYU
  */
 class Hewan {
-    private String nama;
-    private String jenis;
-    private int umur;
+    String nama;
+    String jenis;
+    int umur;
 
     public Hewan(String nama, String jenis, int umur) {
     this.nama = nama;
