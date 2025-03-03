@@ -8,7 +8,6 @@
  * @author AYU
  */
 class Mahasiswa {
-    // Atribut (data) dengan akses private
     String nama;
     int nim;
 
