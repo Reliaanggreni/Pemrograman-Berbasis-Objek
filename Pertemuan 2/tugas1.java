@@ -9,7 +9,7 @@
  */
 
     class Kendaraan {
-    // Atribut private untuk menyimpan informasi kendaraan
+    // Atribut untuk menyimpan informasi kendaraan
     String merk;
     String tipe;
     int kecepatan;
