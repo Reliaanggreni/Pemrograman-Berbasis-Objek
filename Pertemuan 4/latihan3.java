@@ -33,6 +33,7 @@ public class latihan3 {
         Anjing Anjing = new Anjing();
         Kucing.makan();
         Kucing.suara();
+        Anjing.makan();
         Anjing.suara();
     }
 }
