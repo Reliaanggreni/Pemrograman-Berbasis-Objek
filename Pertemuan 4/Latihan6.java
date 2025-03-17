@@ -8,21 +8,16 @@
  * @author AYU
  */
 class Kalkulator {
-
-// Metode pertama: Menjumlahkan dua angka
     int tambah(int a, int b) {
         return a + b;
-}
-// Metode kedua: Menjumlahkan tiga angka
+    }
     int tambah(int a, int b, int c) {
     return a + b + c;
 
 }
-// Metode ketiga: Menjumlahkan dua angka desimal
-
     double tambah(double a, double b) {
     return a + b;
-}
+    }
 
 }
 public class Latihan6 {
