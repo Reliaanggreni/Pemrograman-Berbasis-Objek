@@ -14,27 +14,21 @@ class Hewan {
 
 void bersuara() {
     System.out.println("Hewan bersuara...");
+    }
 }
-}
-
-// Subclass
 
 class Kucing extends Hewan {
 @Override
-
 void bersuara() {
     System.out.println("Meow! Meow!");
+    }
 }
-}
-
-// Subclass lain
-
 class Anjing extends Hewan {
 @Override
 
 void bersuara() {
     System.out.println("Guk! Guk!");
-}
+    }
 }
 
 // Main class
