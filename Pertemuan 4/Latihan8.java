@@ -8,26 +8,20 @@
  * @author AYU
  */
 interface Kendaraan {
-    
-void berjalan();
+    void berjalan();
 }
 
-// Implementasi pertama
 class Mobil implements Kendaraan {
     @Override
     public void berjalan() {
     System.out.println("Mobil berjalan dengan roda 4.");
-
+    }
 }
-}
-
-// Implementasi kedua
 class Motor implements Kendaraan {
     @Override
     public void berjalan() {
     System.out.println("Motor berjalan dengan roda 2.");
-
-}
+    }
 }
 public class Latihan8 {
 
