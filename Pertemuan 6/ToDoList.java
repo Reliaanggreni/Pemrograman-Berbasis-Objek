@@ -28,7 +28,7 @@ public class ToDoList {
                 System.out.print("Pilih menu (1-4): ");
                 
                 int pilihan = scanner.nextInt();
-                scanner.nextLine(); // menghindari bug nextLine setelah nextInt
+                scanner.nextLine(); 
                 
                 switch (pilihan) {
                     case 1 -> {
