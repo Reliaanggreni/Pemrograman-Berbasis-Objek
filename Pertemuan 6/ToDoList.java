@@ -59,7 +59,7 @@ public class ToDoList {
                             }
                             System.out.print("Masukkan nomor tugas yang ingin dihapus: ");
                             int indeks = scanner.nextInt();
-                            scanner.nextLine(); // bersihkan buffer
+                            scanner.nextLine();
                             
                             if (indeks >= 1 && indeks <= daftarTugas.size()) {
                                 String tugasDihapus = daftarTugas.remove(indeks - 1);
